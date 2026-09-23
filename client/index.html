@@ -1,0 +1,835 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Turkey Tourism Platform</title>
+  
+  <!-- Paste your link inside the href="" quotes -->
+  <link rel="icon" href="data:image/jpeg;base64,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">
+  
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turkiye Explorer | Premium Journeys</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Floating WhatsApp Button -->
+    <!-- Floating WhatsApp Button (Standard Icon) -->
+<a 
+  href="https://wa.me/905551234567?text=Hello!%20I'm%20interested%20in%20a%20tour." 
+  target="_blank" 
+  rel="noopener noreferrer"
+  style="position: fixed; bottom: 24px; right: 24px; z-index: 9999; background-color: #25D366; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 12px rgba(0,0,0,0.25); text-decoration: none;"
+  aria-label="Chat on WhatsApp"
+>
+  <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="white" viewBox="0 0 448 512">
+    <!-- Standard WhatsApp handset-in-bubble vector -->
+    <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157.1zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/>
+  </svg>
+</a>
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="32"
+        height="32"
+        fill="white"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 1.84 6.36L.3 24l5.82-1.527A11.96 11.96 0 0 0 12 24c6.627 0 12-5.373 12-12S18.627 0 11.944 0zM12 21.825a9.78 9.78 0 0 1-5.01-1.382l-.36-.214-3.73.977.994-3.633-.235-.373A9.76 9.76 0 0 1 2.22 12c0-5.393 4.387-9.78 9.78-9.78 5.392 0 9.78 4.387 9.78 9.78s-4.388 9.78-9.78 9.78zm5.35-7.3c-.294-.147-1.74-.86-2.01-.958-.27-.098-.467-.147-.663.147-.196.294-.76.957-.932 1.154-.172.196-.344.22-.638.073-.294-.147-1.243-.458-2.368-1.46-.875-.78-1.466-1.743-1.638-2.037-.172-.294-.018-.453.13-.6.132-.132.294-.344.44-.516.148-.172.196-.294.294-.49.1-.197.05-.37-.024-.517-.074-.147-.663-1.595-.908-2.183-.24-.576-.484-.497-.663-.506-.172-.008-.37-.008-.566-.008-.196 0-.515.074-.784.37C2.795 7.15 2 7.91 2 9.407c0 1.496 1.055 2.943 1.202 3.14.147.196 2.14 3.267 5.185 4.58.723.313 1.288.5 1.728.64.726.23 1.386.197 1.905.12.584-.087 1.74-.71 1.985-1.396.245-.686.245-1.275.172-1.396-.074-.122-.27-.196-.564-.343z"
+        />
+      </svg>
+    </a>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              aegean: {
+                50: '#f0f7fa',
+                100: '#dbedf4',
+                500: '#1e75a6',
+                700: '#165a82',
+                900: '#103f5c', // Deep Aegean Blue
+              },
+              earth: {
+                400: '#b8860b',
+                500: '#a0781a',
+                600: '#8b6508',
+              },
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              serif: ['Playfair Display', 'serif'],
+            },
+            backgroundImage: {
+              'hero-pattern':
+                "url('https://images.unsplash.com/photo-1582030826675-8b596001240a?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')", // Cappadocia hot air balloons
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      /* Custom scrollbar for a premium feel */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #103f5c;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #165a82;
+      }
+
+      .glass-nav {
+        backdrop-filter: blur(10px);
+        background-color: rgba(16, 63, 92, 0.8);
+      }
+    </style>
+  </head>
+  <body
+    class="font-sans bg-stone-50 text-slate-800 antialiased selection:bg-aegean-500 selection:text-white"
+  >
+    <nav
+      id="navbar"
+      class="fixed w-full z-50 transition-all duration-300 bg-transparent py-4"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center"
+      >
+        <a
+          href="#"
+          class="text-white text-2xl font-serif font-semibold tracking-wider"
+          >ANTALYA<span class="text-earth-400">.</span></a
+        >
+        <div
+          class="hidden md:flex space-x-8 text-white/90 text-sm font-medium uppercase tracking-widest"
+        >
+        <!-- Add the Villas link here -->
+            <a href="#villas" class= hover:text-earth-400 transition-colors">Villas</a>
+
+          <a href="#routes" class="hover:text-earth-400 transition-colors"
+            >Routes</a
+          >
+          <a href="#experiences" class="hover:text-earth-400 transition-colors"
+            >Experiences</a
+          >
+          <a href="#about" class="hover:text-earth-400 transition-colors"
+            >About</a
+          >
+        </div>
+        <button class="md:hidden text-white focus:outline-none">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </nav>
+
+    <header
+      class="relative h-screen flex items-center justify-center overflow-hidden"
+    >
+      <!-- Background Image with Overlay -->
+      <div
+        class="absolute inset-0 bg-hero-pattern bg-cover bg-center bg-no-repeat transform scale-105 motion-safe:animate-pulse"
+        style="animation: none"
+      ></div>
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-black/60"
+      ></div>
+
+      <!-- Hero Content -->
+      <div class="relative z-10 text-center px-4 max-w-4xl mt-[20px] mx-auto mt-[-10vh]">
+        <h1
+          class="text-5xl md:text-7xl font-serif text-white font-semibold mb-6 drop-shadow-lg"
+        >
+          Journey Through <br />
+          the Cradle of Civilization
+        </h1>
+        <p
+          class="text-lg md:text-xl text-white/90 font-light mb-10 max-w-2xl mx-auto drop-shadow-md"
+        >
+          Experience the legendary Pisidia Heritage Trail, uncover ancient paths along
+          the Lycian Way, and dive into crystal clear Aegean waters.
+        </p>
+      </div>
+
+      <!-- Floating Booking Widget -->
+      <div
+        class="absolute bottom-10 left-1/2 transform -translate-x-1/2 w-[95%] md:w-11/12 max-w-6xl bg-white rounded-2xl shadow-2xl z-20"
+      >
+        <form
+          class="flex flex-col md:flex-row items-center justify-between p-4 md:p-6 gap-4"
+        >
+          <div
+            class="flex-1 w-full flex flex-col px-4 border-b md:border-b-0 md:border-r border-gray-200 pb-4 md:pb-0"
+          >
+            <label
+              class="text-xs uppercase tracking-widest text-gray-400 font-semibold mb-1"
+              >Destination</label
+            >
+            <select
+              class="w-full text-lg text-aegean-900 font-medium bg-transparent outline-none appearance-none cursor-pointer"
+            >
+              <option>Pisidia Heritage Trail (Geyikbayırı)</option>
+              <option>Lycian Way (Antalya)</option>
+              <option>Goynuk Canyon (Antalya)</option>
+              <option> Rockclimbing (Geyikbayırı)</option>
+            </select>
+          </div>
+
+          <div
+            class="flex-1 w-full flex flex-col px-4 border-b md:border-b-0 md:border-r border-gray-200 pb-4 md:pb-0"
+          >
+            <label
+              class="text-xs uppercase tracking-widest text-gray-400 font-semibold mb-1"
+              >Date</label
+            >
+            <input
+              type="date"
+              class="w-full text-lg text-aegean-900 font-medium bg-transparent outline-none cursor-pointer"
+            />
+          </div>
+
+          <div class="flex-1 w-full flex flex-col px-4 pb-4 md:pb-0">
+            <label
+              class="text-xs uppercase tracking-widest text-gray-400 font-semibold mb-1"
+              >Passengers</label
+            >
+            <select
+              class="w-full text-lg text-aegean-900 font-medium bg-transparent outline-none appearance-none cursor-pointer"
+            >
+              <option>1 Adult</option>
+              <option selected>2 Adults</option>
+              <option>2 Adults, 1 Child</option>
+              <option>Group (4+)</option>
+            </select>
+          </div>
+
+          <div class="w-full md:w-auto px-4 mt-2 md:mt-0">
+            <button
+              type="button"
+              class="w-full md:w-auto bg-aegean-900 hover:bg-aegean-700 text-white font-medium py-4 px-10 rounded-xl transition-all duration-300 shadow-[0_10px_20px_rgba(16,63,92,0.3)] hover:shadow-[0_15px_30px_rgba(16,63,92,0.4)] transform hover:-translate-y-1"
+            >
+              Search
+            </button>
+          </div>
+        </form>
+      </div>
+    </header>
+
+    <main class="pt-32 pb-24">
+      <section id="routes" class="max-w-7xl mx-auto px-6 md:px-12">
+        <div class="text-center mb-16">
+          <span
+            class="text-earth-500 font-semibold tracking-widest uppercase text-sm"
+            >Curated Itineraries</span
+          >
+          <!-- ========================================== -->
+<!-- PRIVATE VILLA RESERVATION SECTION          -->
+<!-- ========================================== -->
+<section id="villas" class="py-24 bg-slate-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    
+    <!-- Section Header -->
+    <div class="mb-12 md:flex md:items-end md:justify-between">
+      <div class="max-w-2xl">
+        <h2 class="text-4xl font-serif text-slate-900 mb-4 tracking-tight">Exclusive Private Villas</h2>
+        <p class="text-lg text-slate-600">
+          Elevate your stay with our handpicked selection of luxury villas along the Turquoise Coast. The perfect retreat after a long trek or canyoning adventure.
+        </p>
+      </div>
+      <div class="mt-6 md:mt-0">
+        <a href="#all-villas" class="text-sm font-semibold text-blue-800 hover:text-blue-600 transition flex items-center">
+          View all properties
+          <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+        </a>
+      </div>
+    </div>
+
+    <!-- Villa Cards Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+      
+      <!-- VILLA CARD 1 -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 border border-slate-100 flex flex-col group">
+        <!-- Hero Image with Hover Zoom -->
+        <div class="relative h-72 overflow-hidden bg-slate-200">
+          <!-- Replace src with your actual villa images -->
+          <img src="./images/geyikbayiri-sunset.jpeg" alt="Villa Kaş Azure" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-in-out">
+          <div class="absolute top-4 right-4 bg-white/95 backdrop-blur px-3 py-1.5 rounded-full text-sm font-semibold text-slate-900 shadow">
+            From €120/night
+          </div>
+        </div>
+        
+        <!-- Card Content -->
+        <div class="p-8 flex flex-col flex-grow">
+          <div class="flex justify-between items-start mb-3">
+            <h3 class="text-2xl font-serif text-slate-900">Villa Monami</h3>
+            <span class="flex items-center text-sm text-slate-500 font-medium">
+              <svg class="w-4 h-4 mr-1 text-red-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+              Geyikbayırı
+            </span>
+          </div>
+          
+          <p class="text-slate-600 mb-6 text-sm leading-relaxed">
+            A stunning cliffside retreat featuring panoramic Mediterranean mountain and sea views, and private access to the Lycian Way trail.
+          </p>
+          
+          <!-- Amenities Badges -->
+          <div class="flex flex-wrap gap-2 mb-8">
+            <span class="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs rounded-lg font-medium">Mountain View</span>
+            <span class="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs rounded-lg font-medium">Private Garden</span>
+            <span class="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs rounded-lg font-medium">Sea View</span>
+             <span class="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs rounded-lg font-medium">2 Bathrooms</span>
+             <span class="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs rounded-lg font-medium">Amazing Sunrise</span>
+          </div>
+
+          <!-- Interactive Date Selection & Booking (Matches Route Flow) -->
+          <div class="mt-auto border-t border-slate-100 pt-6">
+            <div class="grid grid-cols-2 gap-4 mb-5">
+              <div>
+                <label class="block text-xs font-semibold text-slate-500 mb-1.5 uppercase tracking-wider">Check-in</label>
+                <input type="date" class="w-full text-sm text-slate-800 border-slate-300 rounded-lg focus:ring-red-700 focus:border-red-700 p-2.5 border bg-slate-50 hover:bg-white transition-colors cursor-pointer outline-none">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-slate-500 mb-1.5 uppercase tracking-wider">Check-out</label>
+                <input type="date" class="w-full text-sm text-slate-800 border-slate-300 rounded-lg focus:ring-red-700 focus:border-red-700 p-2.5 border bg-slate-50 hover:bg-white transition-colors cursor-pointer outline-none">
+              </div>
+            </div>
+            
+            <button class="w-full bg-slate-900 hover:bg-red-700 text-white font-medium py-3.5 px-4 rounded-xl transition-all duration-300 flex justify-center items-center group/btn shadow-md hover:shadow-lg">
+              Check Availability
+              <svg class="w-4 h-4 ml-2 transform group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- VILLA CARD 2 (Forest/Mountain Theme) -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 border border-slate-100 flex flex-col group">
+        <div class="relative h-72 overflow-hidden bg-slate-200">
+          <img src="https://images.unsplash.com/photo-1510798831971-661eb04b3739?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Geyikbayırı Stone House" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-in-out">
+          <div class="absolute top-4 right-4 bg-white/95 backdrop-blur px-3 py-1.5 rounded-full text-sm font-semibold text-slate-900 shadow">
+            From €180/night
+          </div>
+        </div>
+        <div class="p-8 flex flex-col flex-grow">
+          <div class="flex justify-between items-start mb-3">
+            <h3 class="text-2xl font-serif text-slate-900">Pine Crest Cabin</h3>
+            <span class="flex items-center text-sm text-slate-500 font-medium">
+              <svg class="w-4 h-4 mr-1 text-red-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+              Geyikbayırı
+            </span>
+          </div>
+          <p class="text-slate-600 mb-6 text-sm leading-relaxed">
+            A handcrafted stone and timber cabin nestled in the pine forests. Situated just 5 minutes from world-class climbing sectors.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-8">
+            <span class="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs rounded-lg font-medium">Wood Stove</span>
+            <span class="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs rounded-lg font-medium">2 Guests</span>
+            <span class="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs rounded-lg font-medium">Forest View</span>
+          </div>
+          <div class="mt-auto border-t border-slate-100 pt-6">
+            <div class="grid grid-cols-2 gap-4 mb-5">
+              <div>
+                <label class="block text-xs font-semibold text-slate-500 mb-1.5 uppercase tracking-wider">Check-in</label>
+                <input type="date" class="w-full text-sm text-slate-800 border-slate-300 rounded-lg focus:ring-red-700 focus:border-red-700 p-2.5 border bg-slate-50 hover:bg-white transition-colors cursor-pointer outline-none">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-slate-500 mb-1.5 uppercase tracking-wider">Check-out</label>
+                <input type="date" class="w-full text-sm text-slate-800 border-slate-300 rounded-lg focus:ring-red-700 focus:border-red-700 p-2.5 border bg-slate-50 hover:bg-white transition-colors cursor-pointer outline-none">
+              </div>
+            </div>
+            <button class="w-full bg-slate-900 hover:bg-red-700 text-white font-medium py-3.5 px-4 rounded-xl transition-all duration-300 flex justify-center items-center group/btn shadow-md hover:shadow-lg">
+              Check Availability
+              <svg class="w-4 h-4 ml-2 transform group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- VILLA CARD 3 (Canyon/Adventure Theme) -->
+      <div class="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 border border-slate-100 flex flex-col group">
+        <div class="relative h-72 overflow-hidden bg-slate-200">
+          <img src="https://images.unsplash.com/photo-1449844908441-8829872d2607?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Valla Canyon Retreat" class="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-in-out">
+          <div class="absolute top-4 right-4 bg-white/95 backdrop-blur px-3 py-1.5 rounded-full text-sm font-semibold text-slate-900 shadow">
+            From €220/night
+          </div>
+        </div>
+        <div class="p-8 flex flex-col flex-grow">
+          <div class="flex justify-between items-start mb-3">
+            <h3 class="text-2xl font-serif text-slate-900">The Edge Retreat</h3>
+            <span class="flex items-center text-sm text-slate-500 font-medium">
+              <svg class="w-4 h-4 mr-1 text-red-600" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path></svg>
+              Kastamonu
+            </span>
+          </div>
+          <p class="text-slate-600 mb-6 text-sm leading-relaxed">
+            Modern architecture meets wild nature. A minimalist glass-fronted villa overlooking the dramatic drops of Goynuk Canyon.
+          </p>
+          <div class="flex flex-wrap gap-2 mb-8">
+            <span class="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs rounded-lg font-medium">Hot Tub</span>
+            <span class="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs rounded-lg font-medium">6 Guests</span>
+            <span class="px-3 py-1 bg-slate-50 border border-slate-200 text-slate-600 text-xs rounded-lg font-medium">Canyon View</span>
+          </div>
+          <div class="mt-auto border-t border-slate-100 pt-6">
+            <div class="grid grid-cols-2 gap-4 mb-5">
+              <div>
+                <label class="block text-xs font-semibold text-slate-500 mb-1.5 uppercase tracking-wider">Check-in</label>
+                <input type="date" class="w-full text-sm text-slate-800 border-slate-300 rounded-lg focus:ring-red-700 focus:border-red-700 p-2.5 border bg-slate-50 hover:bg-white transition-colors cursor-pointer outline-none">
+              </div>
+              <div>
+                <label class="block text-xs font-semibold text-slate-500 mb-1.5 uppercase tracking-wider">Check-out</label>
+                <input type="date" class="w-full text-sm text-slate-800 border-slate-300 rounded-lg focus:ring-red-700 focus:border-red-700 p-2.5 border bg-slate-50 hover:bg-white transition-colors cursor-pointer outline-none">
+              </div>
+            </div>
+            <button class="w-full bg-slate-900 hover:bg-red-700 text-white font-medium py-3.5 px-4 rounded-xl transition-all duration-300 flex justify-center items-center group/btn shadow-md hover:shadow-lg">
+              Check Availability
+              <svg class="w-4 h-4 ml-2 transform group-hover/btn:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+          <h2 class="text-4xl md:text-5xl font-serif text-aegean-900 mt-3 mb-6">
+            Discover Extraordinary Routes
+          </h2>
+          <p class="text-gray-600 max-w-2xl mx-auto">
+            From snow-capped peaks to sun-drenched coastal trails, find the path
+            that speaks to your soul.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <!-- Route Card 1 -->
+          <a
+            href="#"
+            class="group relative h-[500px] rounded-2xl overflow-hidden shadow-xl cursor-pointer block"
+          >
+            <img
+              src="https://static.wixstatic.com/media/d7c401_9280f9d5de6c45189fdbf3ed91bfbed1~mv2.jpg/v1/fill/w_2736,h_950,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/d7c401_9280f9d5de6c45189fdbf3ed91bfbed1~mv2.jpg"
+              alt="Eastern Express"
+              class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-aegean-900/90 via-aegean-900/40 to-transparent transition-opacity duration-300"
+            ></div>
+            <div
+              class="absolute inset-0 p-8 flex flex-col justify-end text-white"
+            >
+              <span
+                class="text-earth-400 font-semibold tracking-wider uppercase text-xs mb-2"
+                >E-/Mountain Biking</span
+              >
+              <h3
+                class="text-3xl font-serif mb-2 transform transition-transform duration-300 group-hover:-translate-y-2"
+              >
+                Pisidia Heritage Trail 
+              </h3>
+              <p
+                class="text-white/80 text-sm opacity-0 h-0 transition-all duration-300 group-hover:opacity-100 group-hover:h-auto group-hover:mb-4"
+              >
+                A mesmerizing 30-hour rail journey from Ankara to Kars,
+                traversing snowy plateaus and dramatic gorges.
+              </p>
+              <div
+                class="inline-flex items-center text-sm font-medium group-hover:text-earth-400 transition-colors"
+              >
+                Explore Route
+                <svg
+                  class="w-4 h-4 ml-2 transform transition-transform group-hover:translate-x-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </a>
+
+          <!-- Route Card 2 -->
+          <a
+            href="#"
+            class="group relative h-[500px] rounded-2xl overflow-hidden shadow-xl cursor-pointer block md:translate-y-12"
+          >
+            <img
+              src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/09/f0/c3/4e/phaselis-antik-kenti.jpg?w=1400&h=800&s=1"
+              alt="Lycian Way"
+              class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-aegean-900/90 via-aegean-900/40 to-transparent transition-opacity duration-300"
+            ></div>
+            <div
+              class="absolute inset-0 p-8 flex flex-col justify-end text-white"
+            >
+              <span
+                class="text-earth-400 font-semibold tracking-wider uppercase text-xs mb-2"
+                >Trekking & Snorkeling</span
+              >
+              <h3
+                class="text-3xl font-serif mb-2 transform transition-transform duration-300 group-hover:-translate-y-2"
+              >
+                The Lycian Way
+              </h3>
+              <p
+                class="text-white/80 text-sm opacity-0 h-0 transition-all duration-300 group-hover:opacity-100 group-hover:h-auto group-hover:mb-4"
+              >
+                Hike 500km of breathtaking coastline, passing through ancient
+                ruins overlooking the turquoise Mediterranean.
+              </p>
+              <div
+                class="inline-flex items-center text-sm font-medium group-hover:text-earth-400 transition-colors"
+              >
+                Explore Route
+                <svg
+                  class="w-4 h-4 ml-2 transform transition-transform group-hover:translate-x-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </a>
+
+          <!-- Route Card 3 -->
+          <a
+            href="#"
+            class="group relative h-[500px] rounded-2xl overflow-hidden shadow-xl cursor-pointer block"
+          >
+            <img
+              src="https://sabirgazetesicom.teimg.com/crop/1280x720/sabirgazetesi-com/uploads/2026/09/goynuk-kanyonu.jpg"
+              alt="Goynuk Canyon"
+              class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+            />
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-aegean-900/90 via-aegean-900/40 to-transparent transition-opacity duration-300"
+            ></div>
+            <div
+              class="absolute inset-0 p-8 flex flex-col justify-end text-white"
+            >
+              <span
+                class="text-earth-400 font-semibold tracking-wider uppercase text-xs mb-2"
+                >Adventure</span
+              >
+              <h3
+                class="text-3xl font-serif mb-2 transform transition-transform duration-300 group-hover:-translate-y-2"
+              >
+                Goynuk Canyon
+              </h3>
+              <p
+                class="text-white/80 text-sm opacity-0 h-0 transition-all duration-300 group-hover:opacity-100 group-hover:h-auto group-hover:mb-4"
+              >
+                Navigate one of the deepest canyons in the world, a rugged
+                sanctuary of untouched nature in Goynuk.
+              </p>
+              <div
+                class="inline-flex items-center text-sm font-medium group-hover:text-earth-400 transition-colors"
+              >
+                Explore Route
+                <svg
+                  class="w-4 h-4 ml-2 transform transition-transform group-hover:translate-x-2"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M17 8l4 4m0 0l-4 4m4-4H3"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <section
+        id="experiences"
+        class="max-w-7xl mx-auto px-6 md:px-12 mt-32 md:mt-48"
+      >
+        <div
+          class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6"
+        >
+          <div>
+            <span
+              class="text-earth-500 font-semibold tracking-widest uppercase text-sm"
+              >Unique Activities</span
+            >
+            <h2 class="text-4xl md:text-5xl font-serif text-aegean-900 mt-3">
+              Tailored Experiences
+            </h2>
+          </div>
+          <a
+            href="#"
+            class="text-aegean-700 font-medium hover:text-earth-500 transition-colors inline-flex items-center border-b border-transparent hover:border-earth-500 pb-1"
+          >
+            View all experiences
+            <svg
+              class="w-4 h-4 ml-2"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"
+              ></path>
+            </svg>
+          </a>
+        </div>
+
+        <!-- Experiences Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+          <!-- Large Feature -->
+          <div
+            class="group relative rounded-2xl overflow-hidden h-[400px] lg:h-[600px] shadow-lg"
+          >
+            <img
+              src="https://images.squarespace-cdn.com/content/v1/5888e176d1758e783f89e2d6/1518884099954-J9DQA6P9A86AKT9SAFM5/056.JPG?format=2500w"
+              alt="Rock Climbing"
+              class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+            />
+            <div
+              class="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-500"
+            ></div>
+            <div class="absolute bottom-0 left-0 p-8 md:p-12">
+              <span
+                class="bg-white/20 backdrop-blur-md text-white text-xs font-bold uppercase tracking-wider py-1 px-3 rounded-full mb-4 inline-block"
+                >Adrenaline</span
+              >
+              <h3 class="text-3xl md:text-4xl font-serif text-white mb-3">
+                Rock Climbing in Geyikbayırı
+              </h3>
+              <p class="text-white/90 max-w-md">
+                Challenge yourself on world-class limestone crags just outside
+                Antalya, surrounded by pine forests and mountain air.
+              </p>
+            </div>
+          </div>
+
+          <!-- Vertical Stack -->
+          <div class="grid grid-cols-1 gap-6 h-[400px] lg:h-[600px]">
+            <div
+              class="group relative rounded-2xl overflow-hidden h-full shadow-lg"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&q=80&w=800"
+                alt="Underwater"
+                class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+              />
+              <div
+                class="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-500"
+              ></div>
+              <div class="absolute bottom-0 left-0 p-6 md:p-8">
+                <span
+                  class="bg-white/20 backdrop-blur-md text-white text-xs font-bold uppercase tracking-wider py-1 px-3 rounded-full mb-3 inline-block"
+                  >Marine</span
+                >
+                <h3 class="text-2xl font-serif text-white mb-2">
+                  Snorkeling & Underwater Photography
+                </h3>
+                <p class="text-white/90 text-sm">
+                  Capture the vibrant marine life and historic wrecks off the
+                  coast of Kaş.
+                </p>
+              </div>
+            </div>
+            <div
+              class="group relative rounded-2xl overflow-hidden h-full shadow-lg"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?auto=format&fit=crop&q=80&w=800"
+                alt="Canyoning"
+                class="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+              />
+              <div
+                class="absolute inset-0 bg-black/30 group-hover:bg-black/40 transition-colors duration-500"
+              ></div>
+              <div class="absolute bottom-0 left-0 p-6 md:p-8">
+                <span
+                  class="bg-white/20 backdrop-blur-md text-white text-xs font-bold uppercase tracking-wider py-1 px-3 rounded-full mb-3 inline-block"
+                  >Expedition</span
+                >
+                <h3 class="text-2xl font-serif text-white mb-2">
+                  Guided Canyoning
+                </h3>
+                <p class="text-white/90 text-sm">
+                  Rappel down waterfalls and swim through pristine gorges in the
+                  Black Sea region.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="bg-aegean-900 text-white/70 pt-20 pb-10 border-t-4 border-earth-500"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-4 gap-12 mb-16"
+      >
+        <div class="col-span-1 md:col-span-2">
+          <a
+            href="#"
+            class="text-white text-3xl font-serif font-semibold tracking-wider mb-6 block"
+            >TÜRKİYE<span class="text-earth-400">.</span></a
+          >
+          <p class="max-w-sm mb-6 text-sm leading-relaxed">
+            Curating premium, unforgettable journeys across the diverse
+            landscapes and deep history of Anatolia. Your adventure begins here.
+          </p>
+        </div>
+        <div>
+          <h4
+            class="text-white font-semibold uppercase tracking-wider mb-4 text-sm"
+          >
+            Journeys
+          </h4>
+          <ul class="space-y-3 text-sm">
+            <li>
+              <a href="#" class="hover:text-white transition-colors"
+                >Pisidia Heritage Trail</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition-colors"
+                >Lycian Way</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition-colors"
+                >Black Sea Canyons</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition-colors"
+                >Custom Expeditions</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h4
+            class="text-white font-semibold uppercase tracking-wider mb-4 text-sm"
+          >
+            Company
+          </h4>
+          <ul class="space-y-3 text-sm">
+            <li>
+              <a href="#" class="hover:text-white transition-colors"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition-colors"
+                >Travel Preparations</a
+              >
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition-colors">Contact</a>
+            </li>
+            <li>
+              <a href="#" class="hover:text-white transition-colors"
+                >Privacy Policy</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="max-w-7xl mx-auto px-6 md:px-12 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center text-xs"
+      >
+        <p>&copy; 2026 Türkiye Explorer. All rights reserved.</p>
+        <div class="flex space-x-4 mt-4 md:mt-0">
+          <a href="#" class="hover:text-white transition-colors">Instagram</a>
+          <a href="#" class="hover:text-white transition-colors">Twitter</a>
+          <a href="#" class="hover:text-white transition-colors">YouTube</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Interactive JavaScript -->
+    <script>
+      // Navbar Scroll Effect
+      const navbar = document.getElementById('navbar');
+
+      window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+          navbar.classList.add('glass-nav');
+          navbar.classList.remove('py-4');
+          navbar.classList.add('py-3');
+        } else {
+          navbar.classList.remove('glass-nav');
+          navbar.classList.remove('py-3');
+          navbar.classList.add('py-4');
+        }
+      });
+
+      // Form handling (Mock)
+      const searchBtn = document.querySelector('button[type="button"]');
+      if (searchBtn) {
+        searchBtn.addEventListener('click', () => {
+          const btnText = searchBtn.innerHTML;
+          searchBtn.innerHTML =
+            '<svg class="animate-spin h-5 w-5 mx-auto text-white" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"><circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle><path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path></svg>';
+
+          setTimeout(() => {
+            searchBtn.innerHTML = 'Searching availability...';
+            setTimeout(() => {
+              searchBtn.innerHTML = 'Search';
+              // Normally we would route to the checkout/results page here
+            }, 1500);
+          }, 800);
+        });
+      }
+    </script>
+  </body>
+</html>
